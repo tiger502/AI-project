@@ -11,7 +11,7 @@
 
 ## 项目结构
 
-
+```
 multimodal_sentiment/
 │
 ├── data/                      # 数据目录
@@ -32,7 +32,7 @@ multimodal_sentiment/
 │
 ├── requirements.txt         # 环境依赖
 └── README.md               # 项目说明
-
+```
 
 ## 模型架构
 本项目采用了一个双流架构的多模态融合模型：
