@@ -6,7 +6,7 @@
 ## 项目概述
 本项目实现了一个基于文本和图像的多模态情感分析系统，能够对社交媒体内容进行情感分类（积极、中性、消极）。
 
-作者：Yanzichao
+作者：严子超
 更新时间：2025-01-18
 
 ## 项目结构
@@ -69,22 +69,23 @@ pip install -r requirements.txt
 cd src
 python train.py
 ```
-
+训练模型位置：src/best_model.pth(文件过大无法上传github可在邮件查看)
 ### 预测测试集
 ```bash
 cd src
 python predict.py
 ```
-
+预测文件位置：src/test.predictions.txt
 ## 实验结果
 1. 验证集结果：
+   
    - 整体准确率：XX%
    - 各类别F1分数：
      - Positive: XX%
      - Neutral: XX%
      - Negative: XX%
 
-2. 消融实验结果：
+3. 消融实验结果：
    - 仅文本模型：68.45%
    - 仅图像模型：65.32%
    - 多模态融合模型：71.88%
@@ -119,19 +120,4 @@ python predict.py
 3. 实现模型集成
 4. 优化推理速度
 
-## 许可证
-MIT License
 
-## 联系方式
-如有问题，请通过以下方式联系：
-- GitHub: @ 
-```
-
-此README包含了完整的项目说明，包括：
-1. 项目结构说明
-2. 环境配置指南
-3. 使用方法
-4. 实验结果
-5. 可能的改进方向
-
-# -
